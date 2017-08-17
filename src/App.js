@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Masonry from 'react-masonry-component';
 
 import logo from './logo.svg';
 import './App.css';
@@ -9,18 +8,23 @@ class App extends Component {
   render() {
     let categories = images.images.categories;
     let headerElements = Object.keys(categories).map((category, index) => {
+      let style = {
+        'backgroundImage': 'url(' + categories[category].header + ')',
+        'backgroundSize': 'cover'
+      };
+
       return (
-        <li key={index} className="image-element-class">
-          <img src={categories[category].header}/>
+        <div key={index} className="image-element-class" style={style}>
           <div className="contents">
             <a href="">View {category}</a>
           </div>
-        </li>
+        </div>
       )
     })
 
     let masonryOptions = {
-        transitionDuration: 0
+        transitionDuration: 1,
+        columnWidth: 200,
     };
     return (
       <div className="App">
@@ -29,11 +33,9 @@ class App extends Component {
           <h2>Avdhesh Garodia</h2>
         </div>
         <div className="App-intro">
-          <Masonry
-              elementType={'ul'}
-              options={masonryOptions}>
+          <div className="collections">
               {headerElements}
-          </Masonry>
+          </div>
         </div>
       </div>
     );

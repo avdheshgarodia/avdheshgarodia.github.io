@@ -2,11 +2,11 @@
   "images": {
     "categories": {
       "2017": {
-        "header": "https://wallpaperscraft.com/image/google_search_logo_summer_drawing_26168_602x339.jpg",
+        "header": "images/dark.jpg",
         "images": ["images/dark.jpg","images/tangled.jpg","images/light.jpg","images/life.jpg","images/home.jpg","images/flowers1.jpg","images/flowers2.jpg"]
       },
       "2016": {
-        "header": "https://wallpaperscraft.com/image/google_search_logo_summer_drawing_26168_602x339.jpg",
+        "header": "images/thing1.jpg",
         "images": ["images/thing1.jpg","images/thing2.jpg", "images/grapeToGlass.png"]
       }
     }
