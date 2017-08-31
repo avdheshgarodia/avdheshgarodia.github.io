@@ -1,0 +1,15 @@
+.links {
+	padding-top: 1em;
+}
+
+.links-icon {
+	cursor: pointer;
+	display: inline-block;
+	width: 3em;
+	padding-top: 1em;
+	font-size: 150%;
+}
+
+.links-icon:hover {
+	color: #888;
+}

@@ -17,6 +17,10 @@
   font-size: large;
 }
 
+.App-about {
+  color: white;
+}
+
 a {
   color: white;
   text-decoration: none;
