@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Home.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import images from "./images.json";
 
 class Home extends Component {
@@ -29,9 +29,11 @@ class Home extends Component {
         columnWidth: 200,
     };
     return (
-      <div className="Home">
-          <div className="collections">
-              {headerElements}
+      <div className="App-intro">
+        <div className="Home">
+            <div className="collections">
+                {headerElements}
+          </div>
         </div>
       </div>
     );
