@@ -1,6 +1,11 @@
 {
-  "main.css": "static/css/main.f9d49fbe.css",
-  "main.css.map": "static/css/main.f9d49fbe.css.map",
-  "main.js": "static/js/main.f4fee315.js",
-  "main.js.map": "static/js/main.f4fee315.js.map"
+  "main.css": "static/css/main.625a28cc.css",
+  "main.css.map": "static/css/main.625a28cc.css.map",
+  "main.js": "static/js/main.17f2946e.js",
+  "main.js.map": "static/js/main.17f2946e.js.map",
+  "static/media/fontello.eot?44462009": "static/media/fontello.7dbb5b64.eot",
+  "static/media/fontello.svg?44462009": "static/media/fontello.ca432e49.svg",
+  "static/media/fontello.ttf?44462009": "static/media/fontello.b9122620.ttf",
+  "static/media/fontello.woff2?44462009": "static/media/fontello.f5bfe254.woff2",
+  "static/media/fontello.woff?44462009": "static/media/fontello.f34a8cb8.woff"
 }
